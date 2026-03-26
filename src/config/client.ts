@@ -79,7 +79,11 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Adam Flexer", rating: 5, text: "The guys did a fantastic job on our garden patio ", date: "7 months ago" },
+    { name: "Adam Flexer", rating: 5, text: "The guys did a fantastic job on our garden patio", date: "7 months ago" },
+    { name: "Hoshmand Aziz", rating: 5, text: "Exceptional workmanship from RA landscaping and building works on our driveway. They truly know how to enhance curb appeal.", date: "a year ago" },
+    { name: "Ahmed Ramin", rating: 5, text: "RA team painted my back fence. They are hard working people,tidy and clean.I am happy with the result. I highly recommend them", date: "a year ago" },
+    { name: "Lazo Mangury", rating: 5, text: "I have done my fences. Very good job and nice people I recommend them %100", date: "a year ago" },
+    { name: "Carlo Fone", rating: 5, text: "Really efficient and reasonably priced service. Lawi used some 20 year old leftover tiles to fix and make good a badly cracked floor and, honestly, you can't tell which ones he replaced. Very happy with the quality of his work.", date: "a year ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
